@@ -31238,18 +31238,7 @@ var KafkaProtocol = Protocol.createProtocol();
 
 module.exports = KafkaProtocol;
 
-[
-    'common',
-    'metadata',
-    'produce',
-    'fetch',
-    'offset',
-    'offset_commit_fetch',
-    'group_membership',
-    'admin'
-].forEach(function (m) {
-    require('./' + m);
-});
+
 
 
 /***/ }),
